@@ -14,3 +14,13 @@ ul a::after{
 ul a:hover::after{
     width: 100%;
 }
+
+/* Banner section */
+.banner-img{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../../../assets/images/Background-img/background-img.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
