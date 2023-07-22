@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav className="px-24 pt-12 fixed flex items-center justify-between w-full text-white">
+        <nav className="px-24 pt-12 fixed lg:flex items-center justify-between w-full text-white">
             <div>
                 <h2 className="text-3xl font-bold"><span className="text-[#f46565]">E</span>ducare</h2>
             </div>

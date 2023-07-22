@@ -1,0 +1,20 @@
+.background-img{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../../../assets/images/Login-page/login-page.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-text{
+    position: relative;
+}
+.login-text::after{
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #f46565;
+    display: block;
+    margin: 8px auto;
+}

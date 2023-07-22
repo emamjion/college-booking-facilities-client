@@ -24,3 +24,9 @@ ul a:hover::after{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 600px){
+    ul a{
+        display: block;
+    }
+}
