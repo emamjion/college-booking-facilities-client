@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import './Login.css';
 import { useForm } from "react-hook-form";
+import SocialLogin from '../../../components/SocialLogin';
 
 const Login = () => {
     const { register, handleSubmit } = useForm();
@@ -9,7 +10,7 @@ const Login = () => {
     
     return (
         <div className="background-img flex items-center justify-center">
-            <div className='bg-white w-[400px] h-[400px]'>
+            <div className='bg-white w-[400px] h-[450px]'>
                 <h2 className='login-text text-3xl font-semibold text-center mt-6 my-8'>Login</h2>
                 <form onSubmit={handleSubmit(onSubmit)} className='text-center'>
                     <div>
@@ -32,6 +33,7 @@ const Login = () => {
                     <input type="submit" value="Login" className="border border-black px-10 py-3 font-medium hover:bg-[#f46565] hover:border-[#f46565] hover:text-white cursor-pointer transition-all duration-500" />
                 </form>
                 <p className='text-center mt-4 font-medium'>Donot Have any account? <Link className='text-[#f46565]' to='/register'>Register</Link></p>
+                <SocialLogin/>
             </div>
         </div>
     );
