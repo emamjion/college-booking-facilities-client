@@ -3,14 +3,38 @@
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import SocialLogin from "../../../components/SocialLogin";
+import { useContext } from "react";
+import { AuthContext } from "../../../Context/AuthProvider";
+import Swal from "sweetalert2";
 
 const Register = () => {
-    const { register, handleSubmit } = useForm();
-    const onSubmit = data => console.log(data);
+    const { createUser, updateUserProfile } = useContext(AuthContext);
+    const { register, handleSubmit, reset } = useForm();
+    const onSubmit = data => {
+        console.log(data);
+        createUser(data.email, data.password)
+        .then(result => {
+            const createdUser = result.user;
+            console.log(createdUser);
+            updateUserProfile(data.name)
+            .then(() => {})
+            .catch(error => console.log(error.message))
+
+            reset();
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'User has been created!',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        })
+        .catch(error => console.log(error.message))
+    };
     
     return (
         <div className="background-img flex items-center justify-center">
-            <div className='bg-white w-[400px] h-[470px]'>
+            <div className='bg-white w-[400px] h-[490px]'>
                 <h2 className='login-text text-3xl font-semibold text-center mt-6 my-8'>Register</h2>
                 <form onSubmit={handleSubmit(onSubmit)} className='text-center'>
                     <div>

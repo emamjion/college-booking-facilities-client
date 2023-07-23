@@ -1,0 +1,38 @@
+[
+    {
+        "id" : "1",
+        "name" : "Rohan Panda",
+        "feedback" : "The schedule is very flexible for the students & individual concentration is there on every student. They provide amazing study material which provides more than sufficient practice.",
+        "rating" : "4"
+    },
+    {
+        "id" : "2",
+        "name" : "Sonu Gupta",
+        "feedback" : "Teaching at our college is exceptionally good as the faculty focuses on each and every corner of the topic. They not only focus on the curriculum but also enhance our innate wisdom.",
+        "rating" : "5"
+    },
+    {
+        "id" : "3",
+        "name" : "Joshitha Lakshmi",
+        "feedback" : "The faculty at PAGE is excellent and rich in their subject knowledge. They freely interact with us and willingly clarify our doubts. They also guide us with career options.",
+        "rating" : "4"
+    },
+    {
+        "id" : "4",
+        "name" : "Revanth",
+        "feedback" : "The exam pattern at PAGE is very unique. There are IPE & integrated tests on every alternate Saturday and the integrated test are done on Lenovo tabs.",
+        "rating" : "3"
+    },
+    {
+        "id" : "5",
+        "name" : "Mounika",
+        "feedback" : "The college itself is built for the comfort of the students. A student would just concentrate on studies when the surroundings are perfect and PAGE is best at it.",
+        "rating" : "5"
+    },
+    {
+        "id" : "6",
+        "name" : "Ankita Joshi",
+        "feedback" : "The admin staff interacts regularly with us and takes feedback from us regarding any problem we may be having in academics or otherwise. And it is worked on immediately.",
+        "rating" : "3"
+    }
+]

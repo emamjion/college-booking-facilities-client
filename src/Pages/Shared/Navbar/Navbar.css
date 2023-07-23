@@ -30,3 +30,7 @@ ul a:hover::after{
         display: block;
     }
 }
+
+nav a.active{
+    color: #f46565;
+}
