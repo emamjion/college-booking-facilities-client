@@ -1,6 +1,7 @@
 // import React from 'react';
 
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 import Featured from "../Featured/Featured";
 import Gallery from "../Gallery/Gallery";
 import Review from "../Review/Review";
@@ -23,6 +24,9 @@ const Home = () => {
 
             {/* Review Section */}
             <Review/>
+
+            {/* Contact */}
+            <Contact/>
         </div>
     );
 };
