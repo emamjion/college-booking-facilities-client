@@ -6,7 +6,7 @@ import MyInfoCard from "./MyInfoCard";
 const MyCollege = () => {
     const [myInfo, setMyInfo] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://college-booking-server-eta.vercel.app/users')
         .then(res => res.json())
         .then(data => setMyInfo(data))
     }, [])

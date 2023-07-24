@@ -6,7 +6,7 @@ import NameCard from "./NameCard";
 const Addmission = () => {
     const [names, setNames] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/college')
+        fetch('https://college-booking-server-eta.vercel.app/college')
         .then(res => res.json())
         .then(data => setNames(data))
     }, [])

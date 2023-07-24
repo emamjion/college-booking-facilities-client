@@ -46,7 +46,7 @@ const router = createBrowserRouter([
             {
                 path: '/college/:id',
                 element: <CollegeDetails/>,
-                loader: ({params}) => fetch(`http://localhost:5000/college/${params.id}`)
+                loader: ({params}) => fetch(`https://college-booking-server-eta.vercel.app/college/${params.id}`)
             }
         ]
     }, 

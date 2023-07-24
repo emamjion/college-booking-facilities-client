@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="my-24 px-24">
             <h1 className='about-heading text-center font-semibold text-3xl mb-12'><span className='text-[#f46565]'>About</span> Us</h1>
-            <div className='flex items-center justify-center gap-8'>
+            <div className='flex items-center justify-center flex-col lg:flex-row gap-8'>
                 <img src={aboutImg} />
                 <div>
                     <h2 className='font-medium text-2xl mb-3'>We are the world&apos;s famous <br /> college</h2>

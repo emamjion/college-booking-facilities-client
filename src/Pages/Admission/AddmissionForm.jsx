@@ -21,9 +21,9 @@ const AddmissionForm = () => {
             if(imgRes.success){
                 const imgUrl = imgRes.data.display_url;
                 const { name, subject, phone, address, email, date } = data;
-                const user = {name, subject, phone, address, date, email, image:imgUrl};
+                const user = {name, subject, phone, address, email, image:imgUrl};
                 // console.log(user);
-                fetch('http://localhost:5000/users', {
+                fetch('https://college-booking-server-eta.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type' : 'application/json'
