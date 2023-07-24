@@ -6,6 +6,9 @@ import Register from "../Pages/Home/Register/Register";
 import Addmission from "../Pages/Admission/Addmission";
 import College from "../Pages/College/College";
 import CollegeDetails from "../Pages/College/CollegeDetails";
+import AddmissionForm from "../Pages/Admission/AddmissionForm";
+import MyCollege from "../Pages/MyCollege/MyCollege";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -29,8 +32,16 @@ const router = createBrowserRouter([
                 element: <Addmission/>
             },
             {
+                path: '/admission-form/:id',
+                element: <AddmissionForm/>
+            },
+            {
                 path: '/college',
                 element: <College/>
+            },
+            {
+                path: '/my-college',
+                element: <MyCollege/>
             },
             {
                 path: '/college/:id',
@@ -38,6 +49,10 @@ const router = createBrowserRouter([
                 loader: ({params}) => fetch(`http://localhost:5000/college/${params.id}`)
             }
         ]
+    }, 
+    {
+        path: '*',
+        element: <ErrorPage/>
     }
 ])
 export default router;

@@ -2,6 +2,7 @@
 
 const Featured = () => {
     return (
+        // TODO: I will add some topic. such, relevant picture, when this card will hover, then card will be translate-y
         <div className="px-[160px] my-24">
             <div className="text-center mb-12">
                 <h1 className='about-heading text-center font-semibold text-3xl mb-3'>Our <span className='text-[#f46565]'>Facilities</span></h1>
