@@ -10,7 +10,7 @@ import '@smastrom/react-rating/style.css'
 const Review = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('reviews.json')
+        fetch('http://localhost:5000/reviews')
         .then(res => res.json())
         .then(data => setReviews(data))
     }, [])
@@ -19,9 +19,6 @@ const Review = () => {
         <div className='mx-[160px] my-24'>
             <div>
                 <h1 className='about-heading text-center font-semibold text-3xl mb-12'>Our <span className='text-[#f46565]'>Reviews & Feedback</span></h1>
-                <p>
-
-                </p>
             </div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                     {

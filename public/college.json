@@ -1,0 +1,260 @@
+[
+    {
+        "id" : "1",
+        "name" : "Massachusetts Institute of Technology (MIT)",
+        "image" : "https://i.ibb.co/rHZN2hC/clg-1.png",
+        "rating" : "5",
+        "admissionDate" : "20-8-23",
+        "researchNumber" : "104",
+        "collegeDesc" : "The Massachusetts Institute of Technology (MIT) is a prestigious private research university located in Cambridge, Massachusetts, USA. Founded in 1861, MIT has consistently been ranked among the top universities in the world for its excellence in science, engineering, technology, and other academic disciplines.MIT's reputation as a world-class institution is reflected in its consistently high rankings and its contributions to technological advancements and academic research. As with any university, the experience and opportunities available to students may vary depending on their chosen programs and interests, but MIT remains an institution highly regarded for its academic excellence and innovation.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/Rb7TD4F/event-1.png",
+                "eventname" : "College Fest/Cultural Fest",
+                "eventDesc" : "A multi-day event featuring various cultural performances, competitions, workshops, and exhibitions."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/74tNy10/event-10.png",
+                "eventname" : "Environment Day/Clean-up Drive",
+                "eventDesc" : "An event dedicated to raising awareness about environmental issues and organizing activities to clean and green the campus."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/s2CLRpf/event-2.png",
+                "eventname" : "Dance and Music Competition",
+                "eventDesc" : "A talent competition for dancers and musicians to showcase their skills and entertain the audience."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Football",
+                "sportsImg" : "https://i.ibb.co/X4TXhwW/sports-1.jpg",
+                "sportsDesc" : "Football is one of the most popular sports in the world and has a significant presence in colleges as well."
+            },
+            {
+                "sportsname" : "Basketball",
+                "sportsImg" : "https://i.ibb.co/HCzYjxR/basketball.png",
+                "sportsDesc" : "Basketball is another highly popular sport, both at the professional level and in college sports."
+            },
+            {
+                "sportsname" : "Golf",
+                "sportsImg" : "https://i.ibb.co/WBH63bZ/golf.png",
+                "sportsDesc" : "Golf is a popular individual sport that is played all over the world. It is a game of precision and skill, where players use various clubs to hit a small ball into a series of holes in as few strokes as possible."
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "name" : "California Institute of Technology (Caltech)",
+        "image" : "https://i.ibb.co/JqQ6bY5/clg-2.png",
+        "rating" : "4",
+        "admissionDate" : "29-9-23",
+        "researchNumber" : "125",
+        "collegeDesc" : "The California Institute of Technology (Caltech) is a renowned private research university located in Pasadena, California, USA. It is widely regarded as one of the world's leading institutions for science and engineering education and research.Caltech's commitment to academic excellence and research innovation has solidified its reputation as one of the world's leading scientific and technological institutions. It continues to attract top students, faculty, and researchers from around the globe, further contributing to its legacy of impactful discoveries and advancements in various fields of science and engineering.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/QXSWGDM/event-9.png",
+                "eventname" : "Debate/Model United Nations (MUN) Conference",
+                "eventDesc" : "An intellectual event where students engage in debates and role-play as diplomats to discuss global issues."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/74tNy10/event-10.png",
+                "eventname" : "Environment Day/Clean-up Drive",
+                "eventDesc" : "An event dedicated to raising awareness about environmental issues and organizing activities to clean and green the campus."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/s2CLRpf/event-2.png",
+                "eventname" : "Dance and Music Competition",
+                "eventDesc" : "A talent competition for dancers and musicians to showcase their skills and entertain the audience."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Baseball",
+                "sportsImg" : "https://i.ibb.co/YRwpcRn/baseball.png",
+                "sportsDesc" : "Baseball is a popular bat-and-ball sport played primarily in the United States, Canada, and some parts of Latin America and Asia. "
+            },
+            {
+                "sportsname" : "Basketball",
+                "sportsImg" : "https://i.ibb.co/HCzYjxR/basketball.png",
+                "sportsDesc" : "Basketball is another highly popular sport, both at the professional level and in college sports."
+            },
+            {
+                "sportsname" : "Water Polo",
+                "sportsImg" : "https://i.ibb.co/fxGbNty/water-polo.png",
+                "sportsDesc" : "Water polo is a competitive team sport played in a swimming pool. It combines elements of swimming, soccer, and basketball, and it requires a high level of physical fitness, endurance, and water skills."
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "name" : "Imperial College London",
+        "image" : "https://i.ibb.co/dpDZbYp/clg-3.png",
+        "rating" : "5",
+        "admissionDate" : "09-10-23",
+        "researchNumber" : "88",
+        "collegeDesc" : "Imperial College London is a prestigious public research university located in London, United Kingdom. It is consistently ranked among the top universities in the world and is renowned for its excellence in science, engineering, medicine, and business.Imperial College London's commitment to academic excellence, research, and innovation has earned it a prominent place in the global academic landscape. Its focus on science, engineering, medicine, and business has led to significant contributions to society and the advancement of knowledge in these fields.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/QXSWGDM/event-9.png",
+                "eventname" : "Debate/Model United Nations (MUN) Conference",
+                "eventDesc" : "An intellectual event where students engage in debates and role-play as diplomats to discuss global issues."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/Rb7TD4F/event-1.png",
+                "eventname" : "Leadership Conference",
+                "eventDesc" : "A gathering where influential speakers and leaders share their experiences and insights on leadership and personal development."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/s2CLRpf/event-2.png",
+                "eventname" : "Dance and Music Competition",
+                "eventDesc" : "A talent competition for dancers and musicians to showcase their skills and entertain the audience."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Baseball",
+                "sportsImg" : "https://i.ibb.co/YRwpcRn/baseball.png",
+                "sportsDesc" : "Baseball is a popular bat-and-ball sport played primarily in the United States, Canada, and some parts of Latin America and Asia. "
+            },
+            {
+                "sportsname" : "Tennis",
+                "sportsImg" : "https://i.ibb.co/61pMmXB/tennis.png",
+                "sportsDesc" : "Tennis is a popular individual sport played worldwide and is known for its combination of skill, strategy, and physical fitness. "
+            },
+            {
+                "sportsname" : "Water Polo",
+                "sportsImg" : "https://i.ibb.co/fxGbNty/water-polo.png",
+                "sportsDesc" : "Water polo is a competitive team sport played in a swimming pool. It combines elements of swimming, soccer, and basketball, and it requires a high level of physical fitness, endurance, and water skills."
+            }
+        ]
+    },
+    {
+        "id" : "4",
+        "name" : "Swiss Federal Institute of Technology (ETH Zurich)",
+        "image" : "https://i.ibb.co/WHX6Zxt/clg-4.png",
+        "rating" : "4",
+        "admissionDate" : "04-11-23",
+        "researchNumber" : "71",
+        "collegeDesc" : "The Swiss Federal Institute of Technology Zurich, commonly known as ETH Zurich (Eidgenössische Technische Hochschule Zürich in German), is one of the world's leading universities for science, technology, engineering, and mathematics (STEM) disciplines. It is located in Zurich, Switzerland, and is a prominent institution known for its academic excellence and cutting-edge research.ETH Zurich's commitment to excellence in education, research, and innovation has contributed significantly to Switzerland's reputation as a hub for scientific and technological advancements. The university continues to be a sought-after destination for students and researchers seeking top-quality education and opportunities to make a positive impact in their respective fields.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/QXSWGDM/event-9.png",
+                "eventname" : "Debate/Model United Nations (MUN) Conference",
+                "eventDesc" : "An intellectual event where students engage in debates and role-play as diplomats to discuss global issues."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/Rb7TD4F/event-1.png",
+                "eventname" : "Leadership Conference",
+                "eventDesc" : "A gathering where influential speakers and leaders share their experiences and insights on leadership and personal development."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/hgtmQ6c/event-6.png",
+                "eventname" : "Charity/Community Service Event",
+                "eventDesc" : "A social initiative where students engage in activities to support and give back to the local community."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Swimming and Diving",
+                "sportsImg" : "https://i.ibb.co/0tMVCyS/swimming.png",
+                "sportsDesc" : "Swimming and diving are two separate but related aquatic sports often seen in competitive settings like the Olympics, collegiate competitions, and recreational activities. "
+            },
+            {
+                "sportsname" : "Tennis",
+                "sportsImg" : "https://i.ibb.co/61pMmXB/tennis.png",
+                "sportsDesc" : "Tennis is a popular individual sport played worldwide and is known for its combination of skill, strategy, and physical fitness. "
+            },
+            {
+                "sportsname" : "Water Polo",
+                "sportsImg" : "https://i.ibb.co/fxGbNty/water-polo.png",
+                "sportsDesc" : "Water polo is a competitive team sport played in a swimming pool. It combines elements of swimming, soccer, and basketball, and it requires a high level of physical fitness, endurance, and water skills."
+            }
+        ]
+    },
+    {
+        "id" : "5",
+        "name" : "London School of Economics and Political Science (LSE)",
+        "image" : "https://i.ibb.co/g9L1JLS/clg-5.png",
+        "rating" : "5",
+        "admissionDate" : "25-7-23",
+        "researchNumber" : "198",
+        "collegeDesc" : "The London School of Economics and Political Science (LSE) is a prestigious public research university located in London, United Kingdom. It is widely recognized as one of the leading institutions in the world for social sciences, including economics, politics, sociology, law, anthropology, and international relations.LSE's reputation as a top-tier institution for social sciences and its commitment to impactful research and education have solidified its status as a sought-after destination for students, researchers, and policymakers from around the world. The university continues to play a crucial role in shaping the global discourse on social, economic, and political issues.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/QXSWGDM/event-9.png",
+                "eventname" : "Career Fair/Job Expo",
+                "eventDesc" : "An event where companies and organizations come to the college to recruit students for internships and full-time positions."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/C7SKPdf/event-8.png",
+                "eventname" : "Annual Day/Celebration Night",
+                "eventDesc" : " A grand event held at the end of the academic year to celebrate achievements and talents of students through performances and awards."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/hgtmQ6c/event-6.png",
+                "eventname" : "Charity/Community Service Event",
+                "eventDesc" : "A social initiative where students engage in activities to support and give back to the local community."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Swimming and Diving",
+                "sportsImg" : "https://i.ibb.co/0tMVCyS/swimming.png",
+                "sportsDesc" : "Swimming and diving are two separate but related aquatic sports often seen in competitive settings like the Olympics, collegiate competitions, and recreational activities. "
+            },
+            {
+                "sportsname" : "Field Hockey",
+                "sportsImg" : "https://i.ibb.co/VgPH1bt/hocky.png",
+                "sportsDesc" : "Field hockey is a popular team sport played on a grass or turf field. It is widely played in many countries, particularly in Europe, Asia, Australia, and parts of Africa and the Americas."
+            },
+            {
+                "sportsname" : "Water Polo",
+                "sportsImg" : "https://i.ibb.co/fxGbNty/water-polo.png",
+                "sportsDesc" : "Water polo is a competitive team sport played in a swimming pool. It combines elements of swimming, soccer, and basketball, and it requires a high level of physical fitness, endurance, and water skills."
+            }
+        ]
+    },
+    {
+        "id" : "6",
+        "name" : "University of Melbourne",
+        "image" : "https://i.ibb.co/dM0yRHD/clg-6.png",
+        "rating" : "4",
+        "admissionDate" : "27-12-23",
+        "researchNumber" : "66",
+        "collegeDesc" : "The University of Melbourne is a prestigious public research university located in Melbourne, Australia. It is one of the oldest universities in Australia and is widely regarded as one of the country's leading institutions for higher education and research.The University of Melbourne's commitment to academic excellence, research, and innovation has earned it a prominent place in the Australian and global higher education landscape. Its diverse and vibrant community, combined with a strong research focus, continues to attract students and researchers from around the world.",
+        "events" : [
+            {
+                "eventImg" : "https://i.ibb.co/Js2nx0m/event-4.png",
+                "eventname" : "Entrepreneurship Summit",
+                "eventDesc" : "An event that encourages students to explore entrepreneurship and hear from successful entrepreneurs and industry experts."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/Rb7TD4F/event-1.png",
+                "eventname" : "Leadership Conference",
+                "eventDesc" : "A gathering where influential speakers and leaders share their experiences and insights on leadership and personal development."
+            },
+            {
+                "eventImg" : "https://i.ibb.co/pLRBdhm/event-3.png",
+                "eventname" : "Hackathon/Coding Competition",
+                "eventDesc" : "A programming competition where students work in teams to solve real-world problems using technology."
+            }
+        ],
+        "sports" : [
+            {
+                "sportsname" : "Swimming and Diving",
+                "sportsImg" : "https://i.ibb.co/0tMVCyS/swimming.png",
+                "sportsDesc" : "Swimming and diving are two separate but related aquatic sports often seen in competitive settings like the Olympics, collegiate competitions, and recreational activities. "
+            },
+            {
+                "sportsname" : "Field Hockey",
+                "sportsImg" : "https://i.ibb.co/VgPH1bt/hocky.png",
+                "sportsDesc" : "Field hockey is a popular team sport played on a grass or turf field. It is widely played in many countries, particularly in Europe, Asia, Australia, and parts of Africa and the Americas."
+            },
+            {
+                "sportsname" : "Cheerleading",
+                "sportsImg" : "https://i.ibb.co/kBbpGJ0/cheerleading.png",
+                "sportsDesc" : "Cheerleading is a unique and dynamic activity that involves a combination of dance, gymnastics, stunts, and cheering to support sports teams or perform at various events."
+            }
+        ]
+    }
+]

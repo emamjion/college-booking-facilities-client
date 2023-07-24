@@ -13,13 +13,13 @@ const Navbar = () => {
         .catch(error => console.log(error.message))
     }
     return (
-        <nav className="px-24 pt-12 fixed lg:flex items-center justify-between w-full text-white">
+        <nav className="px-24 h-[96px] fixed z-10 lg:flex items-center justify-between w-full text-white bg-black bg-opacity-30">
             <div>
                 <h2 className="text-3xl font-bold"><span className="text-[#f46565]">E</span>ducare</h2>
             </div>
             <ul>
                 <NavLink className='font-medium text-lg ml-12' to='/'>Home</NavLink>
-                <NavLink className='font-medium text-lg ml-12' to='/colleges'>Colleges</NavLink>
+                <NavLink className='font-medium text-lg ml-12' to='/college'>College</NavLink>
                 <NavLink className='font-medium text-lg ml-12' to='/admission'>Admission</NavLink>
                 <NavLink className='font-medium text-lg ml-12' to='/my-college'>My College</NavLink>
             </ul>
